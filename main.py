@@ -53,5 +53,5 @@ class Visitor:
         self.__age = age
         self.__height = height
     
-    def ride(self, attraction)
-
+    def ride(self, attraction):
+        if attraction.is_method
