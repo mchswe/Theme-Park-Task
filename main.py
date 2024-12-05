@@ -54,4 +54,13 @@ class Visitor:
         self.__height = height
     
     def ride(self, attraction):
-        if attraction.is_method
+        x = Thrill_Ride.is_eligible(self.__height)
+        if x == True:
+            print("Allowed.")
+            return True
+        else:
+            print("Not Allowed")
+            return False
+        z = Family_Ride.is_eligible(self.__age)
+        if z == True:
+            return 
